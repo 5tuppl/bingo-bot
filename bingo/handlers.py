@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+from __future__ import annotations
 """Обработчики Telegram. Библиотека pyTelegramBotAPI (telebot) выбрана
 намеренно: она работает через `requests`, а значит проходит через
 HTTP-прокси PythonAnywhere на бесплатном тарифе (в отличие от aiohttp/aiogram,

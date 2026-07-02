@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+from __future__ import annotations
 """Чистая логика бинго-игры. Не зависит от Telegram API — легко тестируется."""
 
 import json

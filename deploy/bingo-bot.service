@@ -1,0 +1,16 @@
+[Unit]
+Description=Telegram Bingo Bot (polling)
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=ubuntu
+WorkingDirectory=/home/ubuntu/bingo-bot
+EnvironmentFile=/home/ubuntu/bingo-bot/.env
+ExecStart=/home/ubuntu/bingo-bot/venv/bin/python bot_polling.py
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target
