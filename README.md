@@ -84,3 +84,4 @@ python -m pytest tests/ -v
 Русские команды (`/бинго`) Telegram в меню не регистрирует, поэтому у каждой
 есть латинский дубль: `bingo`, `close`, `draw`, `draw5`, `list`, `drawn`,
 `stop` — их можно добавить через `/setcommands`.
+
